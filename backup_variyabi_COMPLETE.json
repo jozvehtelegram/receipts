@@ -1,0 +1,262 @@
+{
+  "backup_date": "2026-08-04T03:22:31.062109+00:00",
+  "note": "کامل‌ترین نسخه — از state.db (کل تاریخچه چت) + کوئری D1 قبل از بلاک",
+  "courses": {
+    "hesaban": {
+      "name": "جزوه حسابان",
+      "amount": 380000,
+      "deadline": "جمعه ۱۶ مرداد — ساعت ۱۸:۰۰"
+    },
+    "hendese": {
+      "name": "جزوه هندسه",
+      "amount": 280000,
+      "deadline": "دوشنبه ۱۲ مرداد — ساعت ۲۰:۰۰ (بسته شد)"
+    },
+    "shimi": {
+      "name": "جزوه شیمی",
+      "amount": 750000,
+      "deadline": "جمعه ۱۶ مرداد — ساعت ۲۱:۰۰"
+    }
+  },
+  "payments": {
+    "hesaban": [
+      {
+        "name": "علی کلماتی",
+        "date": "سه‌شنبه ۶ مرداد",
+        "time": "10:52",
+        "receipt": null,
+        "tg_id": "5790561279"
+      },
+      {
+        "name": "مهیار معماری",
+        "date": "سه‌شنبه ۶ مرداد",
+        "time": "15:44",
+        "receipt": null,
+        "tg_id": "8433802637"
+      },
+      {
+        "name": "امیر یزدانی مقدم",
+        "date": "پنجشنبه ۸ مرداد",
+        "time": "22:37",
+        "receipt": "https://mega.nz/file/Um9zSJ7b#f9c6JaD3dQ9VIgskAT5LU81KPsrlPaXIOS930ighQho"
+      },
+      {
+        "name": "پدرام بالوانه",
+        "date": "پنجشنبه ۸ مرداد",
+        "time": "23:32",
+        "receipt": "https://mega.nz/file/omtyxCaL#EKGEa0LybAjJtCkNeRbRYBwTTfTH5RzQjlpMd0F_B8M"
+      },
+      {
+        "name": "محمد مهدی نصر پور",
+        "date": "جمعه ۹ مرداد",
+        "time": "12:23",
+        "receipt": "https://mega.nz/file/Y6NzmKhZ#o7G2KB6m9sLY3x5BYL5BFEmrxbSiDM7Oq7U5gBpXhdc"
+      },
+      {
+        "name": "سید محمد فواد یثربی",
+        "date": "جمعه ۹ مرداد",
+        "time": "17:17",
+        "receipt": "https://mega.nz/file/Vj03QCTY#RAEyhJE82MhHRqP7RnuEdZN6eYEtLtAI96BUjMWwW8A",
+        "tg_id": "6948612678",
+        "note": "ساعت درست 17:17 (بات اشتباه 13:49 گفته)"
+      },
+      {
+        "name": "رادین عتیقی",
+        "date": "جمعه ۹ مرداد",
+        "time": "17:56",
+        "receipt": "https://mega.nz/file/Bz0znA7C#RaX90OfE3_6K3eFbjJRSVsXuLZiUWvE8r4msAU9sWwg"
+      },
+      {
+        "name": "رادمان قهرمان",
+        "date": "جمعه ۹ مرداد",
+        "time": "21:59",
+        "receipt": "https://mega.nz/file/87Eg2DKL#E4t65SqLX3HguBJ__tqigyxzZK1_-WPJYsZREhmj7NU"
+      },
+      {
+        "name": "محمد شوقیان",
+        "date": null,
+        "time": null,
+        "receipt": "receipt_shoghiyan_hesaban.svg",
+        "note": "خود ادمین — بدون تاریخ/ساعت"
+      }
+    ],
+    "hendese": [
+      {
+        "name": "مهیار معماری",
+        "date": "یکشنبه ۱۱ مرداد",
+        "time": "19:42",
+        "tg_id": "8433802637"
+      },
+      {
+        "name": "علی کلماتی",
+        "date": "یکشنبه ۱۱ مرداد",
+        "time": "20:55",
+        "tg_id": "5790561279"
+      },
+      {
+        "name": "Emad Daryadel",
+        "date": "یکشنبه ۱۱ مرداد",
+        "time": "22:22",
+        "tg_id": "8881401531"
+      },
+      {
+        "name": "محمد شوقیان",
+        "date": "۱۰ مرداد ۱۴۰۵",
+        "time": "۱۹:۱۵",
+        "receipt": "receipt_shoghiyan_hendese.svg",
+        "note": "فیک"
+      },
+      {
+        "name": "کوروش هراتی زاده",
+        "date": "دوشنبه ۱۲ مرداد",
+        "time": "09:52",
+        "tg_id": "6234315301"
+      },
+      {
+        "name": "محمدمهدی نصرپور",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "13:32",
+        "bale_id": "1617528756"
+      },
+      {
+        "name": "رادین عتیقی",
+        "date": "دوشنبه ۱۲ مرداد",
+        "time": "15:57",
+        "tg_id": "8470606849"
+      },
+      {
+        "name": "آبتین عمادزاده",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "16:08",
+        "bale_id": "1184297336"
+      },
+      {
+        "name": "سید محمد فواد یثربی",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "16:18",
+        "bale_id": "294356613"
+      },
+      {
+        "name": "احمد رضا عطاری",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "16:20",
+        "bale_id": "933763861"
+      },
+      {
+        "name": "رادمان قهرمان",
+        "date": "دوشنبه ۱۲ مرداد",
+        "time": "16:21",
+        "tg_id": "72776115"
+      },
+      {
+        "name": "یاسین صادقی",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "18:04",
+        "bale_id": "578134610"
+      },
+      {
+        "name": "امیر یزدانی مقدم",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "18:04",
+        "bale_id": "1108247705"
+      },
+      {
+        "name": "نیما خطیب زاده",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "19:08",
+        "bale_id": "1544839406"
+      },
+      {
+        "name": "سانیار فضلی",
+        "date": "دوشنبه ۱۲ مرداد",
+        "time": "19:14",
+        "tg_id": "1042456495"
+      },
+      {
+        "name": "ایلیا ارفع رحیمیان",
+        "date": "۱۲ مرداد ۱۴۰۵",
+        "time": "19:51",
+        "bale_id": "323576499"
+      }
+    ],
+    "shimi": [
+      {
+        "name": "محمد شوقیان",
+        "date": "۱۳ مرداد ۱۴۰۵",
+        "time": "۱۱:۳۰",
+        "receipt": "receipt_shoghiyan_shimi.svg",
+        "note": "فیک"
+      },
+      {
+        "name": "محمد مهدی نصر پور",
+        "date": "دوشنبه ۱۲ مرداد",
+        "time": "13:26",
+        "receipt": "receipt_nasrpour_shimi_1785751715.jpg",
+        "note": "۷,۵۰۰,۰۰۰ ریال — پیگیری 247255"
+      }
+    ]
+  },
+  "removed": [
+    {
+      "name": "علی دولتیان",
+      "reason": "در تاریخ ۲ مرداد از همه‌جا حذف شد (به درخواست کاربر) — حسابان و هندسه و گیت‌هاب"
+    }
+  ],
+  "users": [
+    {
+      "chat_id": "8858501545",
+      "platform": "telegram",
+      "name": "ادیس (ادمین)"
+    },
+    {
+      "chat_id": "198890919",
+      "platform": "bale",
+      "name": "ادیس (ادمین)"
+    },
+    {
+      "chat_id": "8881401531",
+      "platform": "telegram",
+      "name": "عماد دریا دل"
+    },
+    {
+      "chat_id": "5790561279",
+      "platform": "telegram",
+      "name": "علی کلماتی"
+    },
+    {
+      "chat_id": "8433802637",
+      "platform": "telegram",
+      "name": "مهیار معماری"
+    },
+    {
+      "chat_id": "2025932449",
+      "platform": "telegram",
+      "name": "پرهام دشدشی"
+    },
+    {
+      "chat_id": "6948612678",
+      "platform": "telegram",
+      "name": "سید محمد فواد یثربی"
+    },
+    {
+      "chat_id": "6234315301",
+      "platform": "telegram",
+      "name": "کوروش هراتی زاده"
+    },
+    {
+      "chat_id": "1042456495",
+      "platform": "telegram",
+      "name": "سانیار فضلی"
+    },
+    {
+      "chat_id": "8470606849",
+      "platform": "telegram",
+      "name": "رادین عتیقی"
+    },
+    {
+      "chat_id": "72776115",
+      "platform": "telegram",
+      "name": "رادمان قهرمان"
+    }
+  ]
+}
