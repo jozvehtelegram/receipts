@@ -1,0 +1,418 @@
+{
+  "backup_date": "2026-08-04T03:08:07.437082+00:00",
+  "source": "github receipts + chat history + local files",
+  "receipts_github": [
+    {
+      "name": "receipt_1785687083.jpg",
+      "size": 46871,
+      "url": "download_url",
+      "sha": "6a2de6b1fb3acd0e94ccb7da8c9d1c348c37e6d0"
+    },
+    {
+      "name": "receipt_1785691400.jpg",
+      "size": 80122,
+      "url": "download_url",
+      "sha": "c366f7d4e4f3ff7b9e19ccd789de83ed33590f4f"
+    },
+    {
+      "name": "receipt_1785696287.jpg",
+      "size": 75346,
+      "url": "download_url",
+      "sha": "5552fe6511da848f15b708cb5c9b20a5a4032d3e"
+    },
+    {
+      "name": "receipt_1785736346.jpg",
+      "size": 66574,
+      "url": "download_url",
+      "sha": "9bc10c17e4a93f4f025baf433e5afe800940ff4a"
+    },
+    {
+      "name": "receipt_1785741854.jpg",
+      "size": 19960,
+      "url": "download_url",
+      "sha": "3da15427f01164dde7e51745dad7833c7677c288"
+    },
+    {
+      "name": "receipt_1785742089.jpg",
+      "size": 2718,
+      "url": "download_url",
+      "sha": "a4d76cb24a9f9e675ce3fcb7465982d6746a6613"
+    },
+    {
+      "name": "receipt_1785742985.jpg",
+      "size": 47263,
+      "url": "download_url",
+      "sha": "bd65444eefffde6bc73dba5b53963b2ce6cc5914"
+    },
+    {
+      "name": "receipt_1785750426.jpg",
+      "size": 90813,
+      "url": "download_url",
+      "sha": "e420a61f27fe4949f701e087a20d4e84ecc2ad77"
+    },
+    {
+      "name": "receipt_1785750932.jpg",
+      "size": 75149,
+      "url": "download_url",
+      "sha": "4bf649248398eef7184278ab94c7c970bf0fe6d6"
+    },
+    {
+      "name": "receipt_1785752635.jpg",
+      "size": 71237,
+      "url": "download_url",
+      "sha": "e05e95ff2de83905a1119c35e4e1cd7493c79f69"
+    },
+    {
+      "name": "receipt_1785756360.jpg",
+      "size": 29357,
+      "url": "download_url",
+      "sha": "640e09b569648af973cab995404fcb049ce61a60"
+    },
+    {
+      "name": "receipt_1785759888.jpg",
+      "size": 100182,
+      "url": "download_url",
+      "sha": "b6448cd259bbe16c0e8fb52d28d6a408de58382e"
+    },
+    {
+      "name": "receipt_1785760646.jpg",
+      "size": 82806,
+      "url": "download_url",
+      "sha": "9d9a0c232d96f618ca8ad332571ab45340963705"
+    },
+    {
+      "name": "receipt_1785761268.jpg",
+      "size": 49687,
+      "url": "download_url",
+      "sha": "f3de384db41fcb25feda4d5e28b93a3d653cf9d1"
+    },
+    {
+      "name": "receipt_1785761418.jpg",
+      "size": 70467,
+      "url": "download_url",
+      "sha": "c5c9e8a9c50947ef8e456a6e5822260abe38797c"
+    },
+    {
+      "name": "receipt_1785761434.jpg",
+      "size": 67461,
+      "url": "download_url",
+      "sha": "c0815b8dabb11c063e59df0523f397252e0c46e5"
+    },
+    {
+      "name": "receipt_1785762341.jpg",
+      "size": 41398,
+      "url": "download_url",
+      "sha": "9ed3d2422692131a3e99fc615e6cc662d9b61ba0"
+    },
+    {
+      "name": "receipt_1785762440.jpg",
+      "size": 41398,
+      "url": "download_url",
+      "sha": "9ed3d2422692131a3e99fc615e6cc662d9b61ba0"
+    },
+    {
+      "name": "receipt_1785766761.jpg",
+      "size": 45359,
+      "url": "download_url",
+      "sha": "5d25c7367a31a52b0d18b527c1d37a1e7d76f76d"
+    },
+    {
+      "name": "receipt_1785766937.jpg",
+      "size": 45416,
+      "url": "download_url",
+      "sha": "93cea9b33f4557092f60abeeb55baf6017df3829"
+    },
+    {
+      "name": "receipt_1785771490.jpg",
+      "size": 23457,
+      "url": "download_url",
+      "sha": "61af76981d37a9bfa997dc08587b72c50fffd754"
+    },
+    {
+      "name": "receipt_1785771875.jpg",
+      "size": 72141,
+      "url": "download_url",
+      "sha": "8be41b160191cbd5f881fdf86b1e670333376308"
+    },
+    {
+      "name": "receipt_1785772350.jpg",
+      "size": 71655,
+      "url": "download_url",
+      "sha": "3d5670ee91bb0ed482ec70120e4328dc8fad12ee"
+    },
+    {
+      "name": "receipt_1785773831.jpg",
+      "size": 62510,
+      "url": "download_url",
+      "sha": "59b51bbb1e812c30b4668f722884f16d4a82b8d4"
+    },
+    {
+      "name": "receipt_1785782584.jpg",
+      "size": 51903,
+      "url": "download_url",
+      "sha": "6084290d7ebd4a57bdddcdc23c06290c9f1ecff3"
+    },
+    {
+      "name": "receipt_1785783585.jpg",
+      "size": 96704,
+      "url": "download_url",
+      "sha": "8b9b8172a6119ce20edaf176a49ffc0f47912dfc"
+    },
+    {
+      "name": "receipt_1785783763.jpg",
+      "size": 70710,
+      "url": "download_url",
+      "sha": "5af8b9014c1be6f1fc979e995d323d6ad65a2dff"
+    },
+    {
+      "name": "receipt_1785787497.jpg",
+      "size": 35023,
+      "url": "download_url",
+      "sha": "732dd80e53bab635d6f4ec66221b75f5b0394bbb"
+    },
+    {
+      "name": "receipt_1785797053.jpg",
+      "size": 17622,
+      "url": "download_url",
+      "sha": "1b72332c4fca76fbf3b14cac4087c21dd1b3f605"
+    },
+    {
+      "name": "receipt_nasrpour_shimi_1785751715.jpg",
+      "size": 51157,
+      "url": "download_url",
+      "sha": "9fb08576c2297783e72b393a8a33175cf8a76b27"
+    },
+    {
+      "name": "receipt_shoghiyan_hendese.svg",
+      "size": 4403,
+      "url": "download_url",
+      "sha": "2fb1d879e354ae6dc7bd493bfe0546029f01878b"
+    },
+    {
+      "name": "receipt_shoghiyan_hesaban.svg",
+      "size": 4405,
+      "url": "download_url",
+      "sha": "1e88d1cf1dbd6c2be767d74287c89292d5dc92b3"
+    },
+    {
+      "name": "receipt_shoghiyan_shimi.svg",
+      "size": 4576,
+      "url": "download_url",
+      "sha": "04c96b1c962575d58f4882c68d6c8ad76de0de6d"
+    }
+  ],
+  "payments_from_chat": [
+    {
+      "name": "مهیار معماری",
+      "course": "hesaban",
+      "amount": 380000,
+      "date": "سه‌شنبه 6 مرداد",
+      "time": "15:44"
+    },
+    {
+      "name": "علی کلماتی",
+      "course": "hesaban",
+      "amount": 380000,
+      "date": "سه‌شنبه 6 مرداد",
+      "time": "10:52"
+    },
+    {
+      "name": "مهیار معماری",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "یکشنبه 11 مرداد",
+      "time": "19:42",
+      "tg_id": "8433802637"
+    },
+    {
+      "name": "علی کلماتی",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "یکشنبه 11 مرداد",
+      "time": "20:55",
+      "tg_id": "5790561279"
+    },
+    {
+      "name": "Emad Daryadel",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "یکشنبه 11 مرداد",
+      "time": "22:22",
+      "tg_id": "8881401531"
+    },
+    {
+      "name": "محمد شوقیان",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "۱۰ مرداد ۱۴۰۵",
+      "time": "۱۹:۱۵"
+    },
+    {
+      "name": "کوروش هراتی زاده",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "دوشنبه 12 مرداد",
+      "time": "09:52",
+      "tg_id": "6234315301"
+    },
+    {
+      "name": "محمدمهدی نصرپور",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "13:32",
+      "bale_id": "1617528756"
+    },
+    {
+      "name": "رادین عتیقی",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "دوشنبه 12 مرداد",
+      "time": "15:57",
+      "tg_id": "8470606849"
+    },
+    {
+      "name": "آبتین عمادزاده",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "16:08",
+      "bale_id": "1184297336"
+    },
+    {
+      "name": "سید محمد فواد یثربی",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "16:18",
+      "bale_id": "294356613"
+    },
+    {
+      "name": "احمد رضا عطاری",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "16:20",
+      "bale_id": "933763861"
+    },
+    {
+      "name": "رادمان قهرمان",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "دوشنبه 12 مرداد",
+      "time": "16:21",
+      "tg_id": "72776115"
+    },
+    {
+      "name": "یاسین صادقی",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "18:04",
+      "bale_id": "578134610"
+    },
+    {
+      "name": "امیر یزدانی مقدم",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "18:04",
+      "bale_id": "1108247705"
+    },
+    {
+      "name": "نیما خطیب زاده",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "19:08",
+      "bale_id": "1544839406"
+    },
+    {
+      "name": "سانیار فضلی",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "دوشنبه 12 مرداد",
+      "time": "19:14",
+      "tg_id": "1042456495"
+    },
+    {
+      "name": "ایلیا ارفع رحیمیان",
+      "course": "hendese",
+      "amount": 280000,
+      "date": "12 مرداد ۱۴۰۵",
+      "time": "19:51",
+      "bale_id": "323576499"
+    },
+    {
+      "name": "محمد شوقیان",
+      "course": "shimi",
+      "amount": 750000,
+      "date": "۱۳ مرداد ۱۴۰۵",
+      "time": "۱۱:۳۰"
+    },
+    {
+      "name": "محمد مهدی نصر پور",
+      "course": "shimi",
+      "amount": 750000,
+      "date": "دوشنبه 12 مرداد",
+      "time": "13:26"
+    }
+  ],
+  "users_from_chat": [
+    {
+      "chat_id": "8858501545",
+      "platform": "telegram",
+      "name": "ادیس (ادمین)"
+    },
+    {
+      "chat_id": "8881401531",
+      "platform": "telegram",
+      "name": "عماد دریا دل"
+    },
+    {
+      "chat_id": "5790561279",
+      "platform": "telegram",
+      "name": "علی کلماتی"
+    },
+    {
+      "chat_id": "8433802637",
+      "platform": "telegram",
+      "name": "مهیار معماری"
+    },
+    {
+      "chat_id": "2025932449",
+      "platform": "telegram",
+      "name": "پرهام دشدشی"
+    },
+    {
+      "chat_id": "6948612678",
+      "platform": "telegram",
+      "name": "سید محمد فواد یثربی"
+    },
+    {
+      "chat_id": "6234315301",
+      "platform": "telegram",
+      "name": "کوروش هراتی زاده"
+    },
+    {
+      "chat_id": "1042456495",
+      "platform": "telegram",
+      "name": "سانیار فضلی"
+    },
+    {
+      "chat_id": "8470606849",
+      "platform": "telegram",
+      "name": "رادین عتیقی"
+    },
+    {
+      "chat_id": "72776115",
+      "platform": "telegram",
+      "name": "رادمان قهرمان"
+    },
+    {
+      "chat_id": "198890919",
+      "platform": "bale",
+      "name": "ادیس (ادمین)"
+    }
+  ]
+}
