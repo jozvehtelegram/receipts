@@ -116,6 +116,20 @@ input::placeholder{color:var(--ink-3)}
 .paybtn:disabled{opacity:.55;cursor:not-allowed;transform:none}
 .hint{font-size:11px;color:var(--ink-3);text-align:center;margin-top:12px;line-height:1.8}
 
+/* ── انتخاب عکس رسید ── */
+.filepick{margin-bottom:14px}
+.filebtn{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  width:100%;
+  background:var(--paper);
+  border:1.5px dashed var(--line);
+  border-radius:9px;
+  padding:14px;font-family:inherit;font-size:13.5px;font-weight:700;color:var(--ink-2);
+  cursor:pointer;transition:all .2s;
+}
+.filebtn:hover{border-color:var(--teal);color:var(--teal-strong);background:var(--teal-soft)}
+.filebtn svg{width:18px;height:18px}
+
 /* ── پانوشت ── */
 .foot{margin-top:44px;text-align:center;font-size:10.5px;color:var(--ink-3);border-top:1px solid var(--line);padding-top:18px;line-height:1.9}
 
@@ -161,9 +175,16 @@ input::placeholder{color:var(--ink-3)}
       <span class="val" id="amount">— <small>تومان</small></span>
     </div>
     <div class="who" id="who"></div>
-    <button class="paybtn" id="paybtn">
+    <div class="filepick" id="filepick">
+      <input type="file" id="receipt" accept="image/*" hidden>
+      <button type="button" class="filebtn" onclick="document.getElementById('receipt').click()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5M12 3v12"/></svg>
+        <span id="fname">انتخاب عکس رسید</span>
+      </button>
+    </div>
+    <button class="paybtn" id="paybtn" disabled>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-      <span id="paytxt">ادامه برای پرداخت</span>
+      <span id="paytxt">ثبت سفارش</span>
     </button>
     <div class="hint" id="hint"></div>
   </div>
@@ -202,9 +223,22 @@ function update(){
   document.getElementById('amount').innerHTML=`${EN(c.amount)} <small>تومان</small>`;
   const who=[name,phone].filter(Boolean).join(' · ');
   document.getElementById('who').textContent=who||'—';
-  document.getElementById('paytxt').textContent=`واریز ${c.name}`;
-  document.getElementById('hint').textContent=`پس از ثبت، شماره کارت و راه پرداخت در پیام به شما ارسال می‌شود.`;
-  document.getElementById('paybtn').disabled=!(name&&phone);
+  document.getElementById('paytxt').textContent=`ثبت سفارش ${c.name}`;
+  document.getElementById('hint').textContent=`عکس رسید واریز را انتخاب کنید تا ثبت سفارش تکمیل شود.`;
+  document.getElementById('paybtn').disabled=!(name&&phone&&receiptFile);
+}
+
+let receiptFile=null;
+const fileInput=document.getElementById('receipt');
+if(fileInput){
+  fileInput.addEventListener('change',e=>{
+    const f=e.target.files[0];
+    if(!f)return;
+    if(f.size>4*1024*1024){alert('حجم عکس حداکثر ۴ مگابایت باشد');e.target.value='';return}
+    receiptFile=f;
+    document.getElementById('fname').textContent='📎 '+f.name;
+    update();
+  });
 }
 
 ['name','phone'].forEach(id=>{
@@ -215,11 +249,19 @@ document.getElementById('paybtn').onclick=async()=>{
   const sel=document.querySelector('.card.sel');
   const name=document.getElementById('name').value.trim();
   const phone=document.getElementById('phone').value.trim();
-  if(!sel||!name||!phone)return;
+  if(!sel||!name||!phone||!receiptFile)return;
   const btn=document.getElementById('paybtn');
   btn.disabled=true;btn.querySelector('span').textContent='در حال ثبت...';
   try{
-    const r=await fetch(API+'/api/order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,phone,course:sel.dataset.key})});
+    // convert file to base64
+    const b64=await new Promise((res,rej)=>{
+      const rd=new FileReader();
+      rd.onload=()=>res(rd.result.split(',')[1]);
+      rd.onerror=rej;
+      rd.readAsDataURL(receiptFile);
+    });
+    const ext=(receiptFile.name.split('.').pop()||'jpg').toLowerCase();
+    const r=await fetch(API+'/api/order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,phone,course:sel.dataset.key,receipt:{data:b64,ext}})});
     const d=await r.json();
     if(d.success){
       btn.querySelector('span').textContent='✅ سفارش شما ثبت شد';
